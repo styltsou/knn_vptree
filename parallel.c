@@ -12,11 +12,11 @@
 #include "vp_tree.h"
 
 int MAX_THREADS;
-int MIN_WORK_PER_THREAD = 100;
+int MIN_WORK_PER_THREAD = 1000;
 int active_threads;
 
-int num_points = 100;
-int dim = 2;
+int num_points;
+int dim;
 
 double **points;
 double *distances;
